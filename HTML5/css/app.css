@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(0deg, rgba(18,18,18,1) 0%, rgba(84,0,122,1) 100%);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    color: white;
+    background: linear-gradient(0deg, rgba(7,12,51,1) 30%, rgba(18,18,18,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 12px
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+}
+
+.submit-btn {
+    text-decoration: none;
+    padding: 5px 30px;
+    letter-spacing: 1px;
+    transition: all 0.6s ease;
+    background: none;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+    color: var(--color);
+}
+
+:root{
+    --color: #7e00cd;
+}

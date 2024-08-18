@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #FF0000;
+    color: #ffffff;
+    padding: 1px 0;
+}
+header h1, footer h1 , h2 {
+    margin: 10;
+    font-size: 2em;
+}
+.container {
+    width: 100%;
+    margin: 10;
+}
+.content {
+    margin: 20px 0;
+}
+.menu-item {
+    font-size: 1.2em;
+    color: #FF0000;
+    margin: 10px 0;
+}
+.especiales {
+    background-color: #008000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px 0;
+}
+.contact-info {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+
+.footer-info {
+    background-color: #ffffcc;
+    padding: 20px;
+}
+.footer-info p {
+    margin: 0;
+}
+.Imagenes {
+    width: 20%;
+    height: 10%;
+    
+
+}

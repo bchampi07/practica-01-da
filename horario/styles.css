@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+.class {
+    color: #fff;
+}
+.sistemas-info {
+    background-color: #4CAF50; /* Verde */
+}
+.desarrollo-apps {
+    background-color: #2196F3; /* Azul */
+}
+.gestion-datos {
+    background-color: #FF9800; /* Naranja */
+}
+.infraestructura-ti {
+    background-color: #9C27B0; /* Púrpura */
+}
+.gestion-sistemas-ti {
+    background-color: #F44336; /* Rojo */
+}
+.tutoria {
+    background-color: #3F51B5; /* Azul oscuro */
+}
+.filosofia-etica {
+    background-color: #009688; /* Verde azulado */
+}
